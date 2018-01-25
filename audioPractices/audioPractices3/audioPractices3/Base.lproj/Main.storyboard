@@ -87,6 +87,9 @@
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="DP7-IC-Yo2">
                                 <rect key="frame" x="230" y="243" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="cycBtnClick:" destination="BYZ-38-t0r" eventType="valueChanged" id="4GH-ll-CLk"/>
+                                </connections>
                             </stepper>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Tef-ZY-gdH">
                                 <rect key="frame" x="154" y="318" width="178" height="30"/>
@@ -130,6 +133,8 @@
                         <outlet property="currentTime" destination="OpZ-V3-8Jp" id="JdM-xf-Ab6"/>
                         <outlet property="cyc" destination="DP7-IC-Yo2" id="3Lt-hf-087"/>
                         <outlet property="musicProgress" destination="A8r-MD-Blm" id="CCh-4g-8IO"/>
+                        <outlet property="timeSlider" destination="v1h-Na-jwb" id="otI-Bw-UN3"/>
+                        <outlet property="volSlider" destination="Tef-ZY-gdH" id="183-nM-xnt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
