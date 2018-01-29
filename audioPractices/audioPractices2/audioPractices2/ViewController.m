@@ -17,7 +17,6 @@
 @implementation ViewController {
     MPMediaPickerController* musicVC;
     MPMusicPlayerController* musicPlayVC;
-    
 }
 
 - (void)viewDidLoad {
