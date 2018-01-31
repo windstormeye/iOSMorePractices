@@ -23,5 +23,4 @@
 
 - (void)passValueType:(NSInteger)type passValueString:(NSString *)string;
 
-
 @end
