@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7476358A2022B4D900837F90 /* notifyWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 747635892022B4D900837F90 /* notifyWorker.m */; };
+		7476358D2022B4E200837F90 /* notifyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7476358C2022B4E200837F90 /* notifyManager.m */; };
+		747635922022B9ED00837F90 /* MVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747635912022B9ED00837F90 /* MVCViewController.m */; };
+		747635952022B9FA00837F90 /* MVCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 747635942022B9FA00837F90 /* MVCView.m */; };
+		747635982022BA0300837F90 /* MVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 747635972022BA0300837F90 /* MVCModel.m */; };
+		7476359C2022C68C00837F90 /* designModeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7476359B2022C68C00837F90 /* designModeTableView.m */; };
 		74B55F922021ECF400326707 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B55F912021ECF400326707 /* AppDelegate.m */; };
 		74B55F952021ECF400326707 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B55F942021ECF400326707 /* ViewController.m */; };
 		74B55F982021ECF400326707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B55F962021ECF400326707 /* Main.storyboard */; };
@@ -23,6 +29,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		747635882022B4D900837F90 /* notifyWorker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = notifyWorker.h; sourceTree = "<group>"; };
+		747635892022B4D900837F90 /* notifyWorker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = notifyWorker.m; sourceTree = "<group>"; };
+		7476358B2022B4E200837F90 /* notifyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = notifyManager.h; sourceTree = "<group>"; };
+		7476358C2022B4E200837F90 /* notifyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = notifyManager.m; sourceTree = "<group>"; };
+		7476358E2022B56F00837F90 /* notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = notification.h; sourceTree = "<group>"; };
+		747635902022B9ED00837F90 /* MVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCViewController.h; sourceTree = "<group>"; };
+		747635912022B9ED00837F90 /* MVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCViewController.m; sourceTree = "<group>"; };
+		747635932022B9FA00837F90 /* MVCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCView.h; sourceTree = "<group>"; };
+		747635942022B9FA00837F90 /* MVCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCView.m; sourceTree = "<group>"; };
+		747635962022BA0300837F90 /* MVCModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCModel.h; sourceTree = "<group>"; };
+		747635972022BA0300837F90 /* MVCModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCModel.m; sourceTree = "<group>"; };
+		7476359A2022C68C00837F90 /* designModeTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = designModeTableView.h; sourceTree = "<group>"; };
+		7476359B2022C68C00837F90 /* designModeTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = designModeTableView.m; sourceTree = "<group>"; };
 		74B55F8D2021ECF400326707 /* designModePractices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = designModePractices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B55F902021ECF400326707 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74B55F912021ECF400326707 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +79,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7476358F2022B87300837F90 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				747635902022B9ED00837F90 /* MVCViewController.h */,
+				747635912022B9ED00837F90 /* MVCViewController.m */,
+				747635932022B9FA00837F90 /* MVCView.h */,
+				747635942022B9FA00837F90 /* MVCView.m */,
+				747635962022BA0300837F90 /* MVCModel.h */,
+				747635972022BA0300837F90 /* MVCModel.m */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		747635992022BFB900837F90 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
 		74B55F842021ECF400326707 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +123,8 @@
 				74B55F912021ECF400326707 /* AppDelegate.m */,
 				74B55F932021ECF400326707 /* ViewController.h */,
 				74B55F942021ECF400326707 /* ViewController.m */,
+				7476359A2022C68C00837F90 /* designModeTableView.h */,
+				7476359B2022C68C00837F90 /* designModeTableView.m */,
 				74B55F962021ECF400326707 /* Main.storyboard */,
 				74B55F992021ECF400326707 /* Assets.xcassets */,
 				74B55F9B2021ECF400326707 /* LaunchScreen.storyboard */,
@@ -96,6 +137,8 @@
 		74B55FA62021ED4F00326707 /* basic */ = {
 			isa = PBXGroup;
 			children = (
+				747635992022BFB900837F90 /* MVP */,
+				7476358F2022B87300837F90 /* MVC */,
 				74B55FCA2022085E00326707 /* notification */,
 				74B55FB7202200B100326707 /* delegate */,
 				74B55FAA2021F4F700326707 /* decouple */,
@@ -134,6 +177,11 @@
 			children = (
 				74B55FC72022085A00326707 /* notificationViewController.h */,
 				74B55FC82022085A00326707 /* notificationViewController.m */,
+				747635882022B4D900837F90 /* notifyWorker.h */,
+				747635892022B4D900837F90 /* notifyWorker.m */,
+				7476358B2022B4E200837F90 /* notifyManager.h */,
+				7476358C2022B4E200837F90 /* notifyManager.m */,
+				7476358E2022B56F00837F90 /* notification.h */,
 			);
 			path = notification;
 			sourceTree = "<group>";
@@ -210,13 +258,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				74B55F952021ECF400326707 /* ViewController.m in Sources */,
+				747635952022B9FA00837F90 /* MVCView.m in Sources */,
+				7476359C2022C68C00837F90 /* designModeTableView.m in Sources */,
 				74B55FC92022085A00326707 /* notificationViewController.m in Sources */,
 				74B55FB62021F98800326707 /* Manager.m in Sources */,
+				7476358A2022B4D900837F90 /* notifyWorker.m in Sources */,
 				74B55FA02021ECF400326707 /* main.m in Sources */,
+				747635922022B9ED00837F90 /* MVCViewController.m in Sources */,
 				74B55F922021ECF400326707 /* AppDelegate.m in Sources */,
+				7476358D2022B4E200837F90 /* notifyManager.m in Sources */,
 				74B55FBA202200CE00326707 /* delegateViewController.m in Sources */,
 				74B55FC62022011700326707 /* delelgateManager.m in Sources */,
 				74B55FC32022011000326707 /* delegateWoker.m in Sources */,
+				747635982022BA0300837F90 /* MVCModel.m in Sources */,
 				74B55FA92021F4F100326707 /* decoupleViewController.m in Sources */,
 				74B55FB32021F98100326707 /* Worker.m in Sources */,
 			);

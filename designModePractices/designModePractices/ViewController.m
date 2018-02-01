@@ -9,8 +9,11 @@
 #import "ViewController.h"
 #import "decoupleViewController.h"
 #import "delegateViewController.h"
+#import "notificationViewController.h"
+#import "MVCViewController.h"
+#import "designModeTableView.h"
 
-@interface ViewController ()
+@interface ViewController () <designModeTableViewDelegate>
 
 @end
 
@@ -19,22 +22,38 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        [self showDecouple];
-//    });
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        // GCD延迟在重复执行，使用dispatch_once_t解决
-        static dispatch_once_t onceToken;
-        dispatch_once(&onceToken, ^{
-//            [self showDecouple];
+    designModeTableView *tableView = [[designModeTableView alloc] init];
+    tableView.frame = self.view.bounds;
+    tableView.tableViewDelegate = self;
+    [self.view addSubview:tableView];
+}
+
+- (void)designModeTableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    switch (indexPath.row) {
+        case 0:
+            [self showDecouple];
+            break;
+        case 1:
             [self showDelegate];
-        });
-    });
+            break;
+        case 2:
+            [self showNotification];
+            break;
+        case 3:
+            [self showMVC];
+            break;
+        case 4:
+            [self showMVP];
+            break;
+        case 5:
+            [self showMVVM];
+            break;
+    }
 }
 
 - (void)showDecouple {
-    decoupleViewController *vc = [[decoupleViewController alloc] init];
-    [self presentViewController:vc animated:true completion:^{
+    decoupleViewController *dvc = [[decoupleViewController alloc] init];
+    [self presentViewController:dvc animated:true completion:^{
     }];
 }
 
@@ -42,6 +61,26 @@
     delegateViewController *vc = [[delegateViewController alloc] init];
     [self presentViewController:vc animated:true completion:^{
     }];
+}
+
+- (void)showNotification {
+    notificationViewController *vc = [[notificationViewController alloc] init];
+    [self presentViewController:vc animated:true completion:^{
+    }];
+}
+
+- (void)showMVC {
+    MVCViewController *vc = [[MVCViewController alloc] init];
+    [self presentViewController:vc animated:true completion:^{
+    }];
+}
+
+- (void)showMVP {
+    
+}
+
+- (void)showMVVM {
+    
 }
 
 - (void)didReceiveMemoryWarning {

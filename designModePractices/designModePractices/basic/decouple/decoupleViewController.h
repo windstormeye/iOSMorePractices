@@ -8,6 +8,6 @@
 
 #import "ViewController.h"
 
-@interface decoupleViewController : ViewController
+@interface decoupleViewController : UIViewController
 
 @end

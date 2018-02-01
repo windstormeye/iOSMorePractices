@@ -7,6 +7,8 @@
 //
 
 #import "notificationViewController.h"
+#import "notifyManager.h"
+#import "notifyWorker.h"
 
 @interface notificationViewController ()
 
@@ -16,7 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    
+    notifyManager *manager = [[notifyManager alloc] init];
+    notifyWorker *worker = [[notifyWorker alloc] init];
+    [manager beginPrintTask];
+    
 }
 
 - (void)didReceiveMemoryWarning {
