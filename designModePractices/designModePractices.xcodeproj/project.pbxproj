@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742CE3BE2024570B00AA6923 /* MVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE3BD2024570B00AA6923 /* MVPViewController.m */; };
+		742CE3C1202457B200AA6923 /* Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE3C0202457B200AA6923 /* Presenter.m */; };
+		742CE3C7202457CF00AA6923 /* MVPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE3C6202457CF00AA6923 /* MVPView.m */; };
+		742CE3CA202457DB00AA6923 /* MVPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE3C9202457DB00AA6923 /* MVPModel.m */; };
+		742CE3CE2024679600AA6923 /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE3CD2024679600AA6923 /* MVVMViewController.m */; };
+		742CE3D1202467A200AA6923 /* MVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE3D0202467A200AA6923 /* MVVMView.m */; };
+		742CE3D4202467AF00AA6923 /* MVVMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE3D3202467AF00AA6923 /* MVVMModel.m */; };
+		742CE3D7202467E500AA6923 /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE3D6202467E500AA6923 /* MVVMViewModel.m */; };
+		742CE3DF20246BC100AA6923 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE3DB20246BC100AA6923 /* NSObject+FBKVOController.m */; };
+		742CE3E020246BC100AA6923 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742CE3DC20246BC100AA6923 /* FBKVOController.m */; };
 		7476358A2022B4D900837F90 /* notifyWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 747635892022B4D900837F90 /* notifyWorker.m */; };
 		7476358D2022B4E200837F90 /* notifyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7476358C2022B4E200837F90 /* notifyManager.m */; };
 		747635922022B9ED00837F90 /* MVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747635912022B9ED00837F90 /* MVCViewController.m */; };
@@ -29,6 +39,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		742CE3BC2024570B00AA6923 /* MVPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPViewController.h; sourceTree = "<group>"; };
+		742CE3BD2024570B00AA6923 /* MVPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPViewController.m; sourceTree = "<group>"; };
+		742CE3BF202457B200AA6923 /* Presenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Presenter.h; sourceTree = "<group>"; };
+		742CE3C0202457B200AA6923 /* Presenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Presenter.m; sourceTree = "<group>"; };
+		742CE3C5202457CF00AA6923 /* MVPView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPView.h; sourceTree = "<group>"; };
+		742CE3C6202457CF00AA6923 /* MVPView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPView.m; sourceTree = "<group>"; };
+		742CE3C8202457DB00AA6923 /* MVPModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPModel.h; sourceTree = "<group>"; };
+		742CE3C9202457DB00AA6923 /* MVPModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPModel.m; sourceTree = "<group>"; };
+		742CE3CC2024679600AA6923 /* MVVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewController.h; sourceTree = "<group>"; };
+		742CE3CD2024679600AA6923 /* MVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewController.m; sourceTree = "<group>"; };
+		742CE3CF202467A200AA6923 /* MVVMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMView.h; sourceTree = "<group>"; };
+		742CE3D0202467A200AA6923 /* MVVMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMView.m; sourceTree = "<group>"; };
+		742CE3D2202467AF00AA6923 /* MVVMModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMModel.h; sourceTree = "<group>"; };
+		742CE3D3202467AF00AA6923 /* MVVMModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMModel.m; sourceTree = "<group>"; };
+		742CE3D5202467E500AA6923 /* MVVMViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewModel.h; sourceTree = "<group>"; };
+		742CE3D6202467E500AA6923 /* MVVMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
+		742CE3D920246BC100AA6923 /* KVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOController.h; sourceTree = "<group>"; };
+		742CE3DA20246BC100AA6923 /* FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKVOController.h; sourceTree = "<group>"; };
+		742CE3DB20246BC100AA6923 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBKVOController.m"; sourceTree = "<group>"; };
+		742CE3DC20246BC100AA6923 /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; };
+		742CE3DE20246BC100AA6923 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBKVOController.h"; sourceTree = "<group>"; };
 		747635882022B4D900837F90 /* notifyWorker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = notifyWorker.h; sourceTree = "<group>"; };
 		747635892022B4D900837F90 /* notifyWorker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = notifyWorker.m; sourceTree = "<group>"; };
 		7476358B2022B4E200837F90 /* notifyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = notifyManager.h; sourceTree = "<group>"; };
@@ -79,6 +110,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		742CE3CB2024664100AA6923 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				742CE3D820246BC100AA6923 /* FBKVOController */,
+				742CE3CC2024679600AA6923 /* MVVMViewController.h */,
+				742CE3CD2024679600AA6923 /* MVVMViewController.m */,
+				742CE3CF202467A200AA6923 /* MVVMView.h */,
+				742CE3D0202467A200AA6923 /* MVVMView.m */,
+				742CE3D2202467AF00AA6923 /* MVVMModel.h */,
+				742CE3D3202467AF00AA6923 /* MVVMModel.m */,
+				742CE3D5202467E500AA6923 /* MVVMViewModel.h */,
+				742CE3D6202467E500AA6923 /* MVVMViewModel.m */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		742CE3D820246BC100AA6923 /* FBKVOController */ = {
+			isa = PBXGroup;
+			children = (
+				742CE3D920246BC100AA6923 /* KVOController.h */,
+				742CE3DA20246BC100AA6923 /* FBKVOController.h */,
+				742CE3DB20246BC100AA6923 /* NSObject+FBKVOController.m */,
+				742CE3DC20246BC100AA6923 /* FBKVOController.m */,
+				742CE3DE20246BC100AA6923 /* NSObject+FBKVOController.h */,
+			);
+			path = FBKVOController;
+			sourceTree = "<group>";
+		};
 		7476358F2022B87300837F90 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +154,14 @@
 		747635992022BFB900837F90 /* MVP */ = {
 			isa = PBXGroup;
 			children = (
+				742CE3BC2024570B00AA6923 /* MVPViewController.h */,
+				742CE3BD2024570B00AA6923 /* MVPViewController.m */,
+				742CE3BF202457B200AA6923 /* Presenter.h */,
+				742CE3C0202457B200AA6923 /* Presenter.m */,
+				742CE3C5202457CF00AA6923 /* MVPView.h */,
+				742CE3C6202457CF00AA6923 /* MVPView.m */,
+				742CE3C8202457DB00AA6923 /* MVPModel.h */,
+				742CE3C9202457DB00AA6923 /* MVPModel.m */,
 			);
 			path = MVP;
 			sourceTree = "<group>";
@@ -137,6 +204,7 @@
 		74B55FA62021ED4F00326707 /* basic */ = {
 			isa = PBXGroup;
 			children = (
+				742CE3CB2024664100AA6923 /* MVVM */,
 				747635992022BFB900837F90 /* MVP */,
 				7476358F2022B87300837F90 /* MVC */,
 				74B55FCA2022085E00326707 /* notification */,
@@ -258,20 +326,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				74B55F952021ECF400326707 /* ViewController.m in Sources */,
+				742CE3CA202457DB00AA6923 /* MVPModel.m in Sources */,
 				747635952022B9FA00837F90 /* MVCView.m in Sources */,
 				7476359C2022C68C00837F90 /* designModeTableView.m in Sources */,
 				74B55FC92022085A00326707 /* notificationViewController.m in Sources */,
+				742CE3CE2024679600AA6923 /* MVVMViewController.m in Sources */,
 				74B55FB62021F98800326707 /* Manager.m in Sources */,
 				7476358A2022B4D900837F90 /* notifyWorker.m in Sources */,
+				742CE3BE2024570B00AA6923 /* MVPViewController.m in Sources */,
 				74B55FA02021ECF400326707 /* main.m in Sources */,
 				747635922022B9ED00837F90 /* MVCViewController.m in Sources */,
+				742CE3C7202457CF00AA6923 /* MVPView.m in Sources */,
 				74B55F922021ECF400326707 /* AppDelegate.m in Sources */,
 				7476358D2022B4E200837F90 /* notifyManager.m in Sources */,
 				74B55FBA202200CE00326707 /* delegateViewController.m in Sources */,
 				74B55FC62022011700326707 /* delelgateManager.m in Sources */,
 				74B55FC32022011000326707 /* delegateWoker.m in Sources */,
+				742CE3C1202457B200AA6923 /* Presenter.m in Sources */,
+				742CE3D1202467A200AA6923 /* MVVMView.m in Sources */,
 				747635982022BA0300837F90 /* MVCModel.m in Sources */,
+				742CE3D7202467E500AA6923 /* MVVMViewModel.m in Sources */,
+				742CE3DF20246BC100AA6923 /* NSObject+FBKVOController.m in Sources */,
 				74B55FA92021F4F100326707 /* decoupleViewController.m in Sources */,
+				742CE3D4202467AF00AA6923 /* MVVMModel.m in Sources */,
+				742CE3E020246BC100AA6923 /* FBKVOController.m in Sources */,
 				74B55FB32021F98100326707 /* Worker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

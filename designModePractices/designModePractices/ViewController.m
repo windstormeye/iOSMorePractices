@@ -12,6 +12,8 @@
 #import "notificationViewController.h"
 #import "MVCViewController.h"
 #import "designModeTableView.h"
+#import "MVPViewController.h"
+#import "MVVMViewController.h"
 
 @interface ViewController () <designModeTableViewDelegate>
 
@@ -76,11 +78,15 @@
 }
 
 - (void)showMVP {
-    
+    MVPViewController *vc = [[MVPViewController alloc] init];
+    [self presentViewController:vc animated:true completion:^{
+    }];
 }
 
 - (void)showMVVM {
-    
+    MVVMViewController *vc = [[MVVMViewController alloc] init];
+    [self presentViewController:vc animated:true completion:^{
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
