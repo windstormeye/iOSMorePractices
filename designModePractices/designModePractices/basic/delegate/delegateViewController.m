@@ -8,7 +8,6 @@
 
 #import "delegateViewController.h"
 #import "delelgateManager.h"
-#import "delegateWoker.h"
 
 @interface delegateViewController ()
 
@@ -28,6 +27,5 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
-
 
 @end

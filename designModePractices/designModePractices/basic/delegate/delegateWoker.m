@@ -16,6 +16,4 @@
     [_workerDelegate donePrintTask];
 }
 
-
-
 @end
