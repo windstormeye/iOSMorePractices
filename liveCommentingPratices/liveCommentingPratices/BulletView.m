@@ -44,6 +44,9 @@
 }
 
 - (void)startAnimation {
+    // 根据弹幕长度执行
+    // v = s / t
+    
     CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
     CGFloat duration = 4.0f;
     CGFloat wholeWidth = screenWidth + CGRectGetWidth(self.bounds);
@@ -61,7 +64,8 @@
 }
 
 - (void)stopAnimation {
-    
+    [self.layer removeAllAnimations];
+    [self removeFromSuperview];
 }
 
 @end

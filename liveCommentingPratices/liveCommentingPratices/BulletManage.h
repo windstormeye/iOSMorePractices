@@ -8,6 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+@class BulletView;
+
 @interface BulletManage : NSObject
+
+@property (nonatomic, strong) void(^generateViewBlock)(BulletView *view);
+
+// 弹幕开始
+- (void)start;
+// 弹幕结束
+- (void)stop;
 
 @end
