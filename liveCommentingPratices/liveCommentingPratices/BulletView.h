@@ -8,11 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, MoveStatus) {
+    Start,
+    Enter,
+    End
+};
+
 @interface BulletView : UIView
 
 // 弹幕
 @property (nonatomic, assign) int trajectory;
-@property (nonatomic, strong) void(^moveStatusBlock)(void);
+@property (nonatomic, strong) void(^moveStatusBlock)(MoveStatus status);
 
 // 初始化弹幕
 - (instancetype)initWithComment:(NSString *)comment;
